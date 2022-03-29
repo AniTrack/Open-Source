@@ -63,15 +63,17 @@ Always make sure to correctly Role-lock on some sensitive command(ex: /anime add
 - [Role] - Choose a specific Role so only person with the Role can use [Command]
 
 ## Command Syntax List
-| Syntax      | User Permission        | Command        | Command Payload                                |
-| ----------- | ---------------------- | -------------- | ---------------------------------------------- |
-| anime       | anyone or custom       | add            | [AnimeID] [AnimeNickname]                      |
-| anime       | anyone or custom       | addsearch      | [AnimeName] [AnimeNickname]                    |
-| anime       | anyone or custom       | import         | [Platform] [Platform List] [Status] [Username] |
-| anime       | anyone                 | list           | [ListFilter]                                   |
-| anime       | anyone                 | subscribe      | [AnimeNickname]                                |
-| anime       | anyone                 | unsubscribe    | [AnimeNickname]                                |
-| anime admin | admin or guild manager | setchannel     | [Selected Channel]                             |
-| anime admin | admin or guild manager | removechannel  | -                                              |
-| anime admin | admin or guild manager | editpermission | [Enable] [Command] [Role]                      |
-| debug       | anyone                 | -              | -                                              |
+| Syntax | Permission | Command | Payload |  |
+|---|---|---|---|---|
+| anime | anyone or custom | add | [AnimeID or Romaji/English] [AnimeNickname]|  |
+| anime | anyone or custom | remove | [AnimeNickname]|  |
+| anime | anyone or custom | import | [Platform] [Platform List] [Status] [Username] |  |
+| anime | anyone | list | [ListFilter] |  |
+| anime | anyone | subscribe | [AnimeNickname] |  |
+| anime | anyone | unsubscribe | [AnimeNickname] |  |
+| anime | anyone | analytics | [Options] |  |
+| anime admin | admin or guild manager | setchannel | [Selected Channel] |  |
+| anime admin | admin or guild manager | removechannel | - |  |
+| anime admin | admin or guild manager | editpermission | [Enable] [Command] [Role] |  |
+| debug | anyone and owner only | - | - |  |
+
