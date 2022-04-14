@@ -3,10 +3,6 @@
 <critical>
 If your patreon subscription got cancelled, the current server overlimit anime list will be scale down to default limit size without any warning instantly. But member's subscribe list on overlimit subscribe list will stays the same.
 </critical>
-<info>
-Don't worry if you didn't link your Discord Account before purchasing, The Bot will always rescan the Patrons every few minutes. 
-</info>
-
 
 ## Instructions steps
 ---
@@ -60,20 +56,22 @@ Always make sure to correctly Role-lock on some sensitive command(ex: /anime add
 - [ListFilter] - Filter out the List(ex: Global Server List, Personal Subscribed Anime List)
 - [Enable] - If this is Enabled then the Role will be locked to selected Role but if you choose to Disabled it the command will be available publicly. This is the same action as locking the Role with @everyone.
 - [Command] - Command that you want to Role-lock.
-- [Role] - Choose a specific Role so only person with the Role can use [Command]
+- [Role] - Choose a specific Role so only person with the Role can use [Command].
+- [Options] - There will be a prelisted options available for you to choose.
+- [] - Leave this empty. The command does not require you to pick or input anything.
 
 ## Command Syntax List
-| Syntax | Permission | Command | Payload |  |
+| Command | subCommand | Payload | Permission |  |
 |---|---|---|---|---|
-| anime | anyone or custom | add | [AnimeID or Romaji/English] [AnimeNickname]|  |
-| anime | anyone or custom | remove | [AnimeNickname]|  |
-| anime | anyone or custom | import | [Platform] [Platform List] [Status] [Username] |  |
-| anime | anyone | list | [ListFilter] |  |
-| anime | anyone | subscribe | [AnimeNickname] |  |
-| anime | anyone | unsubscribe | [AnimeNickname] |  |
-| anime | anyone | analytics | [Options] |  |
-| anime admin | admin or guild manager | setchannel | [Selected Channel] |  |
-| anime admin | admin or guild manager | removechannel | - |  |
-| anime admin | admin or guild manager | editpermission | [Enable] [Command] [Role] |  |
-| debug | anyone and owner only | - | - |  |
-
+| /anime | add | [AnimeID or Romaji/English] [AnimeNickname] | everyone/specific-role|  |
+| /anime | remove | [AnimeNickname] | everyone/specific-role|  |
+| /anime | import | [Platform] [Platform List] [Status] [Username] | everyone/specific-role | Patron-only PT2 |
+| /anime | list | [ListFilter] | everyone |  |
+| /anime | subscribe | [AnimeNickname] | everyone |  |
+| /anime | unsubscribe | [AnimeNickname] | everyone |  |
+| /anime | analytics | [Options] | everyone |  |
+| /anime admin | setchannel | [Selected Channel] | admin or guild-manager |  |
+| /anime admin | removechannel | [] | admin or guild-manager |  |
+| /anime admin | editpermission | [Enable] [Command] [Role] | admin or guild-manager |  |
+| /debug |  | [Options] | everyone/server-owner-only |  |
+| /help |  | [] | everyone |  |
