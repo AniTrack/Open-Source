@@ -1,39 +1,39 @@
-:sparkles: Hi! I Will Now Use This Text Channel To Post An Embed Notification When A New Anime Episode is Out....
+:sparkles: Hey there! I will now use this Text Channel to post an embed message when a new Anime episode is released/aired...
 
 :pushpin:  __Getting Started__
 
-(1). Adding Anime By \`/anime add "Anime_Name" "Nickname"\` The Anime Name Can Be an Anime ID or Japanese Romaji/English Native Name.
+(1). Adding Anime By \`/anime add "Anime_Name" "Nickname"\` The Anime name can be an Anime ID or Japanese Romaji/English Native name.
 (2). Viewing The Anime List \`/anime list\`.
-(3). Subscribing To The Anime \`/anime subscribe\` To Be Pinged On New Episode Released!
-(4). Wait For New Anime Episode To Be Release! Then The New Message Here Should Be Sent.
+(3). Subscribing to the Anime \`/anime subscribe\` To be pinged on new episode released!
+(4). Viewing the subscribe list \`/anime list subscribe\`.
+(5). Wait for new Anime episode to be release, then the new message here should be sent!
 
-:grey_question: __Why & What I Can Do?__
+:grey_question: __Why & What i can do?__
 
-(1). I Can Notify You When Anime First Episode Till The Last Episode is Out.
-(2). I Always Keep Data Updated And Freshed Every 24 Hours With AniList.co Data.
-(3). We Try To Make It Easy & Simple To Use As Much As Possible.
-(4). I Can Notify Anime Before First Episode Is Aired Up To 60 Days.
-(5). You Can Customize Notification Time With Web Dashboard ( Patron-Only ).
-(6). All of Slash Commands Are Fully Documented When You Type "/" In The Chat Text Box.
-(7). We Support Anime Querying So You Can Search Anime Right Away Within Discord Without Needing To Find The Anime ID.
-(8). Our Website And The Bot Are Blazingly Fast! :zap:
-(9). And Many Many More...
+(1). I can notify you When Anime first episode till the last episode is released/aired.
+(2). I always update Anime database every 24 hours from AniList.co.
+(3). We try to make it easy & simple to use as much as possible.
+(4). I can notify Anime before first Episode is Aired up to 60 days.
+(5). You can customize notification time with our web dashboard ( Patron-Only ).
+(6). All of slash commands are fully documented when you type "/" in the chat text box.
+(7). we support Anime querying so you can search Anime right away within Discord without needing to find the Anime ID.
+(8). Our website and the bot are Blazingly fast! :zap:
+(9). And many many more...
 
-:gem: __Support Us__
+:gem: __Support us__
 
-Support Us Via Patreon To Unlock Patron-Only Perks,
+Support us via Patreon to unlock/upgrade Patron-Only perks,
 > - Customizable Notification Time,
-> - Import Anime From MyAnimeList or AniList,
-> - Larger Anime List,
-> - Private Channel,
+> - Import list MyAnimeList or AniList,
+> - Larger List Size,
 > - Early Access
 > and more...
 <https://AniTrack.co/patreon> $3 - $5
 
-:hammer_pick:  __We're In Beta__
+:hammer_pick:  __We're in Beta__
 
-(1). If The Bot Ever Went Offline, Please Check Up Time Page For More Information.
+(1). If the Bot ever went offline, please visit up time page for more information.
 <https://uptime.AniTrack.co>
-(2). Found A Bug, Errors, Not Responding or Bot Crashes? Please Send/Report Them in Our Discord Server.
+(2). Found a Bug, Errors, not responding or Bot crashes? Please send/report them in our Discord server.
 <https://AniTrack.co/discord>
-(3). Whole Web And The Bot Are Made By One Developer So Please By Patient With Everything, As I Cannot Keep Up With Everything in Time. ;-;
+(3). Whole web and the Bot are made by one developer so please by patient with everything, as I cannot keep up with everything in time. ;-;
