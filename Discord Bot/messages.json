@@ -56,7 +56,7 @@
         "tooFast": "Please wait and select one of the search result before sending the command.",
         "permission": {
             "error": {
-                "notAdministrator": "❌ Sorry, But this command requires **MANAGE SERVER** or **ADMINISTRATOR** role privileges in order to use it",
+                "notAdministrator": "❌ Sorry, But this command you need to have **MANAGE SERVER** or **ADMINISTRATOR** role privileges in order to use it",
                 "noPremium": "❌ Sorry, But this server needs to have a Patreon tier 2 subscription in order to use this command!",
                 "notOwner": "❌ Sorry, But you are not allowed to use this command. Only server owner are allowed to use this command."
             }
@@ -132,12 +132,13 @@
                         "front": "Sorry, but",
                         "back": "has been delayed and will have a new airing schedule soon or later..."
                     },
-                    "badFormat": "Sorry, but this Anime have a really weird formatting and we are unable to process this Anime. If you believe this is a bug please report it in https://AniTrack.co/discord Bug report channel <:fear:899011066879696896>",
+                    "badFormat": "Sorry, but this Anime have a really weird formatting and we are unable to process this Anime. If you believe this is a bug please report it in <https://AniTrack.co/discord> Bug report channel <:fear:899011066879696896>",
                     "limitA": "Sorry, but this server has reached it maximum free tier limit of",
-                    "limitB": "Animes. However you can choose to remove some Anime or support us at https://anitrack.co/patreon to extend the Anime list limit and unlocks many other features! We appreciate every single donation, Thank you <3",
+                    "limitB": "Animes. However you can choose to remove some Anime or support us at <https://anitrack.co/patreon> to extend the Anime list limit and unlocks many other features! We appreciate every single donation, Thank you <3",
                     "premiumLimitA": "Sorry, but looks like this server has reached the maximum Patreon tier limit of",
                     "premiumLimitB": "Anime. Thank you for supporting us <3!",
-                    "noRole": "Sorry, but looks like you don't have a required role inorder to use this command. If you believe this is a mistake please contact the server's administrator or manager to solve the problem"
+                    "noRole": "Sorry, but looks like you don't have a required role in order to use this command. If you believe this is a mistake please contact the server's administrator or manager to solve the problem",
+                    "noNSFW": "Sorry, but this Guild needs to have Patreon tier 2 (PT2) subscription in order to add NSFW/18+ content"
                 },
                 "response": {
                     "added": "Successfully added this Anime!"
@@ -147,14 +148,14 @@
                 "response": {
                     "add10": "🎉 Top 10 Anime That Has Been Added The Most",
                     "sub10": "🎉 Top 10 Anime that has been subscribed to the most",
-                    "ran10": "'🎨 Random Anime'"
+                    "ran10": "🎨 Random Anime"
                 }
             },
             "subscribe": {
                 "error": {
                     "noAnime": "Oops, looks like you're inputting the wrong [AnimeNickname] for that Anime. Please try again",
                     "alreadySubscribe": "Oops, looks like you already subscribed to this Anime! you can always unsubscribe by `/anime unsubscribe [AnimeNickname]`",
-                    "reachLimit": "Oops, looks like this anime on this server has reached it maximum member subscribe list of"
+                    "reachLimit": "Oops, looks like this anime on this server has reached it maximum member subscribe per anime limit of"
                 },
                 "response": {
                     "subscribed": ":bell:  You will now get a notification ping from this Anime when a new episode is aired"
@@ -177,7 +178,7 @@
                     "removed": "Successfully removed this Anime from the list"
                 }
             },
-            "help": "<https://anitrack.co/documentation> - Section 02 All Command List\n\nCommand help & Explain will be displayed once you type out the command in Discord",
+            "help": "<https://anitrack.co/help> - Section 02 All Command List\n\nCommand help & Explain will be displayed once you type out the command in Discord",
             "button": {
                 "notify": {
                     "error": {
