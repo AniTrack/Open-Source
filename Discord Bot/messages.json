@@ -81,7 +81,8 @@
             "realTimeQuery": {
                 "error": {
                     "noNotify": "No notify channel, Please create one /anime admin setchannel",
-                    "noPermission": "No role permission. Please contact this server administrator"
+                    "noPermission": "No role permission. Please contact this server administrator",
+                    "tooLong": "The query is too long, please try again with a shorter one"
                 },
                 "add": {
                     "error": {
@@ -101,9 +102,9 @@
                     "fishy": "<:fishy:964129009057280020>  **Oops, looks like something very fishy is going on .-.**\n\nMaybe you're trying to get a larger Anime List by setting up a multiple servers or you might forgot to disable/remove notifyChannel before deleting the previous Discord Server?\n\nIf so, please mass disable AniTrack Bot on every servers you owned with `/debug \"Server Owner | Disable NotifyChannel on every servers I owned\"` Don't worry! Nothing will be deleted. You just have to manually setup the notifyChannel on each server your owned again."
                 },
                 "response": {
-                    "replySetA": "Successfully set channel & Created a webhook for",
-                    "replySetB": "You may start using the Bot now!",
-                    "removedChannel": ":pushpin: Successfully removed the NotifyChannel!\n\nPlease kindly delete the unused webhook manually if you'd like to.\nAs the Bot itself cannot delete the webhook by itself but the bot will ignore and no longer send updates to that webhook anymore"
+                    "replySetA": "Successfully set channel & created a webhook for",
+                    "replySetB": "You may start using the Bot now!\n\n> ⚠️ ||Please keep in mind that you will need to remove webhook manually if you kick the Bot out without removing the channel.\n> So please make sure that you've use `/anime admin removechannel` before kicking the Bot out for easier process! Thanks.||",
+                    "removedChannel": ":pushpin: Successfully removed the NotifyChannel!\n\n> ⚠️ ||Please kindly delete the unused webhook manually if you'd like to.\n> As the Bot itself cannot delete the webhook by itself but the bot will ignore and no longer send updates to that webhook anymore||"
                 }
             },
             "anime": {
@@ -178,7 +179,7 @@
                     "removed": "Successfully removed this Anime from the list"
                 }
             },
-            "help": "<https://anitrack.co/help> - Section 02 All Command List\n\nCommand help & Explain will be displayed once you type out the command in Discord",
+            "help": "<https://anitrack.co/help> **- \"Section 02 Bot | Command List\"**\nCommand help & Explain will be displayed once you type out the command in Discord",
             "button": {
                 "notify": {
                     "error": {
